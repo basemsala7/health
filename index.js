@@ -11,7 +11,7 @@ const loginRoute = require("./routes/loginRoute.js");
 const forgetpasswordRoute = require("./routes/forgetpasswordRoute.js");
 const verifyOtpRoute = require("./routes/verifyOtpRoute.js");
 
-const port = 8800;
+const port = 3000;
 
 app.get("/", function (req, res) {
   res.send("Hello World from app !");
